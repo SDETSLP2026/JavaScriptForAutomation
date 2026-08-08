@@ -1,0 +1,42 @@
+To completely stop auto suggestions while writing code in VS Code, you must turn off both standard IntelliSense dropdown menus and AI inline "ghost text" completions.
+
+Here is the fastest and most reliable way to disable all suggestion overlays.
+
+Method 1: Modify the settings.json File (Recommended)This approach completely shuts down all variants of auto-complete by directly editing your configuration file.
+
+Open the Command Palette by pressing Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (macOS).
+
+Type Preferences: Open User Settings (JSON) and select it.
+
+Paste the following configuration block inside the main curly braces {}:
+json"editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+},
+Disables automatic IntelliSense suggestions while typing.
+You won't see the autocomplete popup as you type in code, comments, or string literals. You can still manually trigger suggestions with Ctrl + Space.
+
+"editor.inlineSuggest.enabled": false,
+Disables inline (ghost text) suggestions.
+You won't see faded text predictions that appear ahead of your cursor, such as GitHub Copilot or AI-generated inline completions.
+
+"editor.suggestOnTriggerCharacters": false,
+Prevents suggestion popup when typing trigger characters like ., (, <, etc.
+Typing object. will not automatically show methods and properties. You'll need to press Ctrl + Space manually.
+
+"editor.acceptSuggestionOnEnter": "off",
+Prevents the Enter key from accepting an autocomplete suggestion.
+Pressing Enter simply inserts a new line instead of accepting the highlighted suggestion. You must use Tab or click the suggestion.
+
+"editor.wordBasedSuggestions": "off",
+Disables suggestions based on words already present in open files.
+VS Code won't suggest previously typed variable names, comments, or other words from your workspace unless provided by the language server.
+
+"editor.parameterHints.enabled": false
+Disables parameter hint popups for functions.
+When typing print( or myFunction(, you won't see a popup showing the function's parameters or documentation.
+
+Use code with caution.Save the file (Ctrl + S or Cmd + S).
+
+
