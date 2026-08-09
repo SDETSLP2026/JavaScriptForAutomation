@@ -26,7 +26,6 @@ Scenario: Pegination logic, page load timeout for every page
 1. for...of loop
 2. for...in loop
 
-
 */
 
 console.log("Hello");
