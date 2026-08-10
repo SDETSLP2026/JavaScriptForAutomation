@@ -1,4 +1,7 @@
-// Write a JavaScript program to check whether a number is even or odd. 
+/*
+ControlFlowStatements_Assignment-1
+PS: Write a JavaScript program to check whether a number is even or odd.
+*/  
 
 let num = 108;
 

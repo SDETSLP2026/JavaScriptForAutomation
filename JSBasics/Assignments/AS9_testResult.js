@@ -1,5 +1,5 @@
-/*
-Write a JS script that evaluates a test case result based on HTTP response status code.
+/* ControlFlowStatements_Assignment-3
+PS: Write a JS script that evaluates a test case result based on HTTP response status code.
 The program should use Nested if..else statements to determine result message.  
 Instructions:  
 1.create a new file named testResult.js Inside the file declare variable to store status code Let responseCode=200;  

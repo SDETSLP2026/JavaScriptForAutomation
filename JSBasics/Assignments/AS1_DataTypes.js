@@ -1,5 +1,5 @@
-/*
-1. Identify the Data Type 
+/* DataTypes,Variable and Operators_Assignment-1
+PS: Identify the Data Types
 Write a program to declare the following variables and log 
 their data types: 
 let a = "Hello"; 

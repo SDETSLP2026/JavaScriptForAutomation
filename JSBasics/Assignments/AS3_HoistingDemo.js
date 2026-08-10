@@ -1,5 +1,5 @@
-/*
-3. Hoisting Example 
+/* DataTypes,Variable and Operators_Assignment-3
+PS: Hoisting Example 
 Predict the output and explain: 
 console.log(a); 
 var a = 5; 

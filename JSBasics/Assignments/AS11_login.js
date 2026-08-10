@@ -1,5 +1,5 @@
-/*
-Create a Javascript that checks whether the given username and password match the predefined login credentials using simple variables.
+/* ControlFlowStatements_Assignment-4
+PS: Create a Javascript that checks whether the given username and password match the predefined login credentials using simple variables.
 
 Instructions:  
 1. Greate a new file named login.js.  

@@ -1,5 +1,5 @@
-/*
-Print the day of the week based on number (1–7). 
+/* ControlFlowStatements_Assignment-2
+PS: Print the day of the week based on number (1–7). 
 What you will use here? If-else or switch case? - We will prefer to use switch case here as we know the data in Key = Value format.
 */
 

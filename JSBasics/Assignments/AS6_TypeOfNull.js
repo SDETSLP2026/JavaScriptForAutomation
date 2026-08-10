@@ -1,5 +1,5 @@
-/*
-6. What’s the type of typeof null? 
+/* DataTypes,Variable and Operators_Assignment-6
+PS: What’s the type of typeof null? 
 console.log(typeof null); // ? 
 
 */

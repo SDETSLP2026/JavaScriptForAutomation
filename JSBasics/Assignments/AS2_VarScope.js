@@ -1,5 +1,5 @@
-/*
-2. Variable Scope Check 
+/*DataTypes,Variable and Operators_Assignment-2
+PS: Check the Variable Scope 
 What will be the output of the following? 
 var x = 10; 
 function test() { 

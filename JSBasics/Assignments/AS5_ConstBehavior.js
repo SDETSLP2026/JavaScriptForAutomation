@@ -1,5 +1,5 @@
-/*
-5. Const Behavior 
+/* DataTypes,Variable and Operators_Assignment-5
+PS: Const Behavior 
 What will happen? 
 const obj = { name: "Alice" }; 
 obj.name = "Bob"; 

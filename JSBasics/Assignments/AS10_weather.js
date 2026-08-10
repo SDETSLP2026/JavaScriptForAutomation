@@ -1,5 +1,5 @@
-/*
-Write a script that suggests what clothing to wear based on the current temperature. 
+/* ControlFlowStatements_Assignment-4
+PS: Write a script that suggests what clothing to wear based on the current temperature. 
 The program should use if...else or if...else if statements to determine the suggestion.  
 Instructions: 
 1. Create a new file named weather.js. 

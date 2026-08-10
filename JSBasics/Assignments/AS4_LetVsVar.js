@@ -1,5 +1,5 @@
-/*
-4. Let vs Var 
+/* DataTypes,Variable and Operators_Assignment-4
+PS: Let vs Var 
 What will be the output? 
 function testScope() { 
 if (true) { 
