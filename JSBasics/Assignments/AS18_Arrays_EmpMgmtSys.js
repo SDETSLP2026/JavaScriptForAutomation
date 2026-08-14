@@ -40,7 +40,7 @@ console.log(empArray); // [ 'Manager', 'Rahul', 'Priya', 'Amit' ]
 console.log("------------------------------------------------------------------------");
 
 console.log("4. Remove the first employee from the list");
-empArray.shift(); // pop() is used to remove the first element of the array
+empArray.shift(); // shift() is used to remove the first element of the array
 console.log(empArray); // [ 'Rahul', 'Priya', 'Amit' ]
 
 /* Output:
