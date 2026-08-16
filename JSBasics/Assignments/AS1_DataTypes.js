@@ -12,6 +12,8 @@ let g = [1, 2, 3];
 let h = function() { 
 }; 
 
+let i;
+
 */
 
 let a = "Hello";
@@ -38,3 +40,13 @@ console.log("Type of g is : ", typeof g); // Type of g is : object (arrays are o
 let h = function () {
 };
 console.log("Type of h is : ", typeof h); // Type of h is : function
+
+let i;
+console.log("Type of i is : ", typeof i); // Type of i is :  undefined
+
+
+
+
+
+
+

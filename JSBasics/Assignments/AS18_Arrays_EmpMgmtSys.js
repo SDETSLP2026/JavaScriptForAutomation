@@ -17,7 +17,6 @@ let empArray = ["Rahul", "Priya", "Amit"];
 console.log("The original array is: ");
 console.log(empArray);
 
-
 console.log("------------------------------------------------------------------------");
 
 console.log("1. Add Sneha to the employee list");
