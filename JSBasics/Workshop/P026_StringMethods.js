@@ -65,6 +65,8 @@ console.log("Is this sentence ends with frame?: "+str2.endsWith('frame'));//fals
 let str3 = "     Welcome All      ";
 console.log(str3); //     Welcome All       - with white spaces
 console.log(str3.trim()); //Welcome All - after trimming white spaces
+console.log(str3.trimStart()); //Welcome All        - after trimming white spaces at the start
+console.log(str3.trimEnd()); //Welcome All       - after trimming white spaces at the end
 
 //charAt(index): returns character/string for specific index
 let str4 = "Hello All To learn String";
@@ -123,10 +125,61 @@ for(let i in fname)
     
 }
 
+//split(regular express) Array[String]
+let tools = "Selenium,Cypress,Playwright,Appium,Postman,Jmeter";
+console.log(tools);
+console.log(typeof tools);// String
+
+let allTools = tools.split(",");
+console.log(allTools);
+
+//extract single element 
+console.log(allTools[2]); //Playwright
+
+let apiTestTool = tools.split(",")[4];
+console.log(apiTestTool); //Postman
+
+console.log("--------------------------");
+
+let date = "August 2026";
+let month = date.split(" ")[0];
+let year = date.split(" ")[1];
+
+console.log("This is " + month + " of " + year); //This is August of 2026
+
+console.log("--------------------------");
+
+// Bill amount validation scenario
+
+let bill = "Your total bill amount is 5000";
+let data = bill.split(" ")[5];
+console.log(data); //5000
+console.log(typeof data); //string
+
+//String to Number type casting/coercion
+let amount = Number(data);
+console.log("The amount is: " + amount); //The amount is: 5000
+console.log(typeof amount); //number
+
+if(amount < 10000){
+    console.log("The amount is valid");
+}
 
 
-
-
-//split(regular express)
-
+//---------------------------------------------------------------
 //write logic for reverse string
+
+let baseStr = "JavaScript";
+let revStr = "";
+for(let i=baseStr.length-1; i>=0; i--){
+    revStr = revStr + baseStr.charAt(i);
+}
+console.log("Reverse String is: " + revStr); //Reverse String is: tpircSavaJ
+
+//---------------------------------------------------------------
+//For string we don't have direct reverse number
+
+let testData = "This is test data for Playwright";
+let totalWords = testData.split(" ").length;
+console.log("Total words are: " + totalWords); //Total words are: 6
+
