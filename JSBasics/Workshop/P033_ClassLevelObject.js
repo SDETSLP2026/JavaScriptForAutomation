@@ -1,7 +1,7 @@
 /*
 class
 ------------
--Class is template or blueprint where we can describe properties of the onject
+- Class is template or blueprint where we can describe properties of the object
 - Class is collection of similar type of objects
 
 -Object is instance of class
@@ -37,13 +37,14 @@ class StudentData
      fname;
      location;
      emailId;
-     //private data
+    
+    //private data
      #phno;
 
     //constructor: to initialize object
-    constructor(id,fname,location,emailId)//local
+    constructor(id,fname,location,emailId) //local
     {
-        this.id=id;//assigning local id to current class this.id
+        this.id=id;         //assigning local id to current class this.id
         this.fname=fname;
         this.emailId=emailId;
         this.location=location;
@@ -100,7 +101,7 @@ console.log(s3.emailId);//undefined
 
 s3.getData();
 
-console.log("----------------");
+console.log("--------GC will collect 2 types of objects--------");
 
 //no reference object: if object is not assigned to variable
 new StudentData(401,"Kirti","Pune","kirti@gmail.com");
