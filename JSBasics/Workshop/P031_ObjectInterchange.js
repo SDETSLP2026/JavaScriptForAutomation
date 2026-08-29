@@ -20,9 +20,9 @@ console.log(u3);//A
 console.log("------------");
 
 u1=u2;
-console.log(u1);//d
-console.log(u2);//d
-console.log(u3);//a
+console.log(u1);//D
+console.log(u2);//D
+console.log(u3);//A
 console.log("------------");
 
 u2=u3;

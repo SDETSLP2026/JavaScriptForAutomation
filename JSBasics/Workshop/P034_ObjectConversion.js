@@ -8,8 +8,7 @@ stringify():Converts a JavaScript value to a JavaScript Object Notation (JSON) s
 
 JSON string into Javascript Object
 ----------------------------------
-parse()
-onverts a JavaScript Object Notation (JSON) string into an object.
+parse(): Converts a JavaScript Object Notation (JSON) string into an object.
 */
 
 let user={
@@ -27,7 +26,7 @@ console.log(jsonData);
 console.log(typeof jsonData);//string
 
 
-console.log("---------------------");
+console.log("----------------------------------------");
 
 
 let payload=`{
