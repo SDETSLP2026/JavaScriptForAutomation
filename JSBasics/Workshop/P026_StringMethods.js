@@ -43,7 +43,7 @@ console.log("Google" === "Google"); //true
 //for searching substring: includes()
 let str2 = "Playwright is webui and api testing end to end framework";
 
-console.log("Are you searching for wenui?: " + str2.includes("webui")); //true
+console.log("Are you searching for webui?: " + str2.includes("webui")); //true
 
 console.log("Are you searching for Automation Testing?: " + str2.includes("Automation Testing")); //false
 
