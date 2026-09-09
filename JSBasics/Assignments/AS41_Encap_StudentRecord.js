@@ -14,7 +14,7 @@ Also, create method that:
 */
 
 
-class Student{
+export class Student{
     sname;
     srollNo;
     sgrade;
@@ -40,10 +40,3 @@ class Student{
     }
 
 }
-
-
-let s1 = new Student("Swapnil", 101, "A");
-s1.getData();
-
-s1.setStudentData("A+");
-s1.getData();

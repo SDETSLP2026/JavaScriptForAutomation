@@ -32,9 +32,9 @@ export class Employee{
     }        
 
     getData(){
-        console.log("Employee ID: "+ this.id
-            +" Employee Name: "+ this.ename
-            +" Employee Salary: "+ this.#salary);
+        console.log("Employee ID: " + this.id
+            + "Employee Name: " + this.ename
+            + "Employee Salary: " + this.#salary);
     }
 
     //public methods for private data
