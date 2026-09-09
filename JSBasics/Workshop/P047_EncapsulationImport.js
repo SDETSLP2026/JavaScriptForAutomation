@@ -20,7 +20,7 @@ In JS, public methods we can design using - getters() - To get the data and sett
 import { Employee } from "./P046_EncapsulationExport.js";
 
 let e1=new Employee(101,"Jay");
-e1.getData();
+e1.getData(); //Employee ID: 101Employee Name: JayEmployee Salary: 90000
 
 //e1.#salary=125000;
 
@@ -29,4 +29,4 @@ e1.setSalary(125000);
 //console.log(e1.getSalary());
 
 
-e1.getData();
+e1.getData(); //Employee ID: 101Employee Name: JayEmployee Salary: 125000
